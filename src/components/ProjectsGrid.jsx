@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowUpRight } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { siteData } from '../data/siteData';
 
 export function ProjectsGrid({ onSelectProject }) {
@@ -38,42 +39,53 @@ export function ProjectsGrid({ onSelectProject }) {
           </div>
         </div>
 
-        {/* Projects Cards Grid */}
-        <div className="projects-grid">
-          {filteredProjects.map((project) => (
-            <div
-              key={project.id}
-              className="project-card"
-              onClick={() => onSelectProject(project)}
-            >
-              <div className="project-image-wrapper">
-                <div className="project-tags">
-                  {project.categories.map((cat, idx) => (
-                    <span key={idx} className="tag-pill">
-                      {cat}
-                    </span>
-                  ))}
+        {/* Projects Cards Grid with Framer Motion Layout & Stagger */}
+        <motion.div 
+          className="projects-grid"
+          layout
+        >
+          <AnimatePresence mode="popLayout">
+            {filteredProjects.map((project) => (
+              <motion.div
+                key={project.id}
+                layout
+                initial={{ opacity: 0, scale: 0.9, y: 20 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                exit={{ opacity: 0, scale: 0.9 }}
+                transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                className="project-card"
+                onClick={() => onSelectProject(project)}
+                whileHover={{ y: -6, transition: { duration: 0.2 } }}
+              >
+                <div className="project-image-wrapper">
+                  <div className="project-tags">
+                    {project.categories.map((cat, idx) => (
+                      <span key={idx} className="tag-pill">
+                        {cat}
+                      </span>
+                    ))}
+                  </div>
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="project-image"
+                    loading="lazy"
+                  />
                 </div>
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="project-image"
-                  loading="lazy"
-                />
-              </div>
 
-              <div className="project-content">
-                <div>
-                  <h3 className="project-title">{project.title}</h3>
-                  <p className="project-summary">{project.summary}</p>
+                <div className="project-content">
+                  <div>
+                    <h3 className="project-title">{project.title}</h3>
+                    <p className="project-summary">{project.summary}</p>
+                  </div>
+                  <div className="project-arrow-icon">
+                    <ArrowUpRight size={20} />
+                  </div>
                 </div>
-                <div className="project-arrow-icon">
-                  <ArrowUpRight size={20} />
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+              </motion.div>
+            ))}
+          </AnimatePresence>
+        </motion.div>
       </div>
     </section>
   );

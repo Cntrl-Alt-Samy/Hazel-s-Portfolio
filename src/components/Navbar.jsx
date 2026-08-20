@@ -40,7 +40,8 @@ export function Navbar({ activePage, setActivePage, onOpenContact }) {
     { id: 'about', label: 'About' },
     { id: 'services', label: 'Services' },
     { id: 'pricing', label: 'Pricing' },
-    { id: 'blog', label: 'Blog' }
+    { id: 'blog', label: 'Blog' },
+    { id: 'design-system', label: 'DS' }
   ];
 
   return (

@@ -12,6 +12,7 @@ import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
 
 import { AboutPage } from './pages/AboutPage';
+import { DesignSystemPage } from './pages/DesignSystemPage';
 
 import { ProjectModal } from './components/ProjectModal';
 import { ReelModal } from './components/ReelModal';
@@ -58,6 +59,12 @@ export default function App() {
       {activePage === 'about' && (
         <main>
           <AboutPage onOpenContact={() => handleOpenContact()} />
+        </main>
+      )}
+
+      {activePage === 'design-system' && (
+        <main>
+          <DesignSystemPage />
         </main>
       )}
 
