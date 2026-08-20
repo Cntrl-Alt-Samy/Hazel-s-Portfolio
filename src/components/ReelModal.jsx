@@ -25,7 +25,7 @@ export function ReelModal({ isOpen, onClose }) {
             ✦ Studio Showreel 2026
           </span>
           <h2 className="font-serif" style={{ fontSize: '2rem', marginTop: '4px' }}>
-            Orionix Creative Reel
+            Hazel Zimuto Creative Reel
           </h2>
         </div>
 
@@ -33,7 +33,7 @@ export function ReelModal({ isOpen, onClose }) {
         <div style={{ position: 'relative', width: '100%', height: '480px', borderRadius: '16px', overflow: 'hidden', background: '#18181B', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <iframe
             src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1"
-            title="Orionix Showreel"
+            title="Hazel Zimuto Showreel"
             style={{ width: '100%', height: '100%', border: 'none' }}
             allow="autoplay; encrypted-media"
             allowFullScreen

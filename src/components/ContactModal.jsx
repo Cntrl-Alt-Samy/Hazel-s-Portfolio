@@ -37,7 +37,7 @@ export function ContactModal({ isOpen, onClose, selectedPlan }) {
               Inquiry Sent!
             </h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '1rem', marginBottom: '24px' }}>
-              Thank you for reaching out to Orionix. Our team will review your project brief and respond within 24 hours.
+              Thank you for reaching out to Hazel Zimuto. Our team will review your project brief and respond within 24 hours.
             </p>
             <button className="btn-primary" onClick={onClose}>
               Done

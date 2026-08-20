@@ -1,10 +1,10 @@
 export const siteData = {
-  studioName: "Orionix",
+  studioName: "Hazel Zimuto",
   tagline: "Creative Design Studio",
   subtitle: "Designing brands, products, and campaigns built for a digital-first world.",
   location: "GMT-7",
-  email: "hello@orionix.com",
-  copyright: "© 2026 Copyright - Orionix | Designed by LoganCee Studio | Built by KOTA",
+  email: "hello@hazelzimuto.com",
+  copyright: "© 2026 Copyright - Hazel Zimuto | Designed by LoganCee Studio | Built by KOTA",
 
   clientLogos: [
     { name: "Rivermark", category: "Branding & Web" },
@@ -20,7 +20,7 @@ export const siteData = {
       id: "rivermark",
       title: "Rivermark",
       summary: "Bold street branding campaign designed to capture attention and energize urban audiences.",
-      fullDescription: "Rivermark needed a complete brand overhaul to disrupt traditional street culture. Orionix engineered an expressive visual identity system, high-contrast poster artwork, and an interactive e-commerce platform that increased conversion by 42%.",
+      fullDescription: "Rivermark needed a complete brand overhaul to disrupt traditional street culture. Hazel Zimuto engineered an expressive visual identity system, high-contrast poster artwork, and an interactive e-commerce platform that increased conversion by 42%.",
       categories: ["Website", "Social Media"],
       year: "2026",
       client: "Rivermark Apparel",
@@ -41,7 +41,7 @@ export const siteData = {
       id: "fluxa",
       title: "Fluxa",
       summary: "Dynamic digital visuals and identity crafted for modern and expressive brands.",
-      fullDescription: "Fluxa is a next-gen data analytics tool. Orionix designed an ultra-slick dark mode dashboard system, dynamic micro-interactions, and visual guidelines that elevated their seed round fundraising.",
+      fullDescription: "Fluxa is a next-gen data analytics tool. Hazel Zimuto designed an ultra-slick dark mode dashboard system, dynamic micro-interactions, and visual guidelines that elevated their seed round fundraising.",
       categories: ["UX/UI", "Growth"],
       year: "2026",
       client: "Fluxa Technologies",
@@ -138,7 +138,7 @@ export const siteData = {
       id: "northbound",
       title: "Northbound",
       summary: "Strategic brand repositioning and digital platform for sustainable travel.",
-      fullDescription: "Northbound pairs eco-conscious travelers with boutique wilderness stays. Orionix built their brand strategy, visual system, and booking platform.",
+      fullDescription: "Northbound pairs eco-conscious travelers with boutique wilderness stays. Hazel Zimuto built their brand strategy, visual system, and booking platform.",
       categories: ["Branding", "Website"],
       year: "2025",
       client: "Northbound Travels",
@@ -342,7 +342,7 @@ export const siteData = {
 
   testimonials: [
     {
-      quote: "Orionix transformed our brand and website into a powerful growth engine.",
+      quote: "Hazel Zimuto transformed our brand and website into a powerful growth engine.",
       name: "Daniel Carter",
       title: "Founder & CEO, NovaTech",
       avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
@@ -354,7 +354,7 @@ export const siteData = {
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
     },
     {
-      quote: "Orionix helped us clarify our brand and launch confidently ahead of schedule.",
+      quote: "Hazel Zimuto helped us clarify our brand and launch confidently ahead of schedule.",
       name: "Marcus Rivera",
       title: "Head of Marketing, Horizon Collective",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
@@ -417,8 +417,8 @@ export const siteData = {
 
   faqs: [
     {
-      question: "What services does Orionix provide?",
-      answer: "Orionix is a full-service creative design studio offering Brand Identity & Strategy, Website Design & Development, UI/UX & Product Design, Digital Marketing & Growth, and Social Media & Content Marketing."
+      question: "What services does Hazel Zimuto provide?",
+      answer: "Hazel Zimuto is a full-service creative design studio offering Brand Identity & Strategy, Website Design & Development, UI/UX & Product Design, Digital Marketing & Growth, and Social Media & Content Marketing."
     },
     {
       question: "How long does a typical project take?",
@@ -433,7 +433,7 @@ export const siteData = {
       answer: "We follow a clear 3-step framework: Discovery (research & insights), Strategy (positioning & architecture), and Design (crafting visual systems & code)."
     },
     {
-      question: "Can Orionix redesign an existing brand or website?",
+      question: "Can Hazel Zimuto redesign an existing brand or website?",
       answer: "Yes! We specialize in brand refresh projects and website redesigns focused on improving conversion, brand equity, and user experience."
     },
     {

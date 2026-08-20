@@ -22,7 +22,7 @@ export function Hero({ onOpenReel }) {
         </div>
 
         <div className="hero-image-wrapper">
-          <img src={heroImage} alt="Orionix creative work showcase" className="hero-image" />
+          <img src={heroImage} alt="Hazel Zimuto creative work showcase" className="hero-image" />
         </div>
       </div>
 

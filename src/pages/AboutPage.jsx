@@ -8,13 +8,13 @@ export function AboutPage({ onOpenContact }) {
         {/* About Hero */}
         <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 80px auto' }}>
           <span className="font-mono" style={{ fontSize: '0.75rem', textTransform: 'uppercase', color: 'var(--accent-blue)', display: 'block', marginBottom: '12px' }}>
-            ✦ About Orionix
+            ✦ About Hazel Zimuto
           </span>
           <h1 className="font-serif" style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', lineHeight: '1.1', marginBottom: '24px' }}>
             We Craft Digital Experiences
           </h1>
           <p style={{ fontSize: '1.125rem', color: 'var(--text-muted)', lineHeight: '1.6' }}>
-            Orionix is an independent creative design studio crafting brands, websites, and digital experiences for ambitious companies worldwide.
+            Hazel Zimuto is an independent creative design studio crafting brands, websites, and digital experiences for ambitious companies worldwide.
           </p>
         </div>
 
@@ -22,7 +22,7 @@ export function AboutPage({ onOpenContact }) {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '32px', marginBottom: '100px' }}>
           <div style={{ background: 'var(--bg-card)', padding: '32px', borderRadius: '20px', border: '1px solid var(--border-light)' }}>
             <span className="font-mono" style={{ fontSize: '1.5rem', color: 'var(--accent-blue)', fontWeight: '700' }}>2020</span>
-            <h3 className="font-serif" style={{ fontSize: '1.25rem', margin: '8px 0' }}>The Beginning of Orionix</h3>
+            <h3 className="font-serif" style={{ fontSize: '1.25rem', margin: '8px 0' }}>The Beginning of Hazel Zimuto</h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9375rem', lineHeight: '1.6' }}>
               Founded with a mission to bridge high-end brand identity with cutting-edge web technology.
             </p>
@@ -38,7 +38,7 @@ export function AboutPage({ onOpenContact }) {
 
           <div style={{ background: 'var(--bg-card)', padding: '32px', borderRadius: '20px', border: '1px solid var(--border-light)' }}>
             <span className="font-mono" style={{ fontSize: '1.5rem', color: 'var(--accent-blue)', fontWeight: '700' }}>2026</span>
-            <h3 className="font-serif" style={{ fontSize: '1.25rem', margin: '8px 0' }}>Orionix Today</h3>
+            <h3 className="font-serif" style={{ fontSize: '1.25rem', margin: '8px 0' }}>Hazel Zimuto Today</h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9375rem', lineHeight: '1.6' }}>
               A global boutique studio partnering with market leaders and high-growth startups across 25+ industries.
             </p>
